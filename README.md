@@ -1,2 +1,2 @@
-# tecladoPrototipo
+# KeyBoardTranslate
 ![](keyBoardTranslate.gif)

@@ -1,0 +1,2 @@
+# tecladoPrototipo
+![](keyBoardTranslate.gif)

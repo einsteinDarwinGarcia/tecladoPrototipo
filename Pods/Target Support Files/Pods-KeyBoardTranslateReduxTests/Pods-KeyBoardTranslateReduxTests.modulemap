@@ -1,0 +1,6 @@
+framework module Pods_KeyBoardTranslateReduxTests {
+  umbrella header "Pods-KeyBoardTranslateReduxTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

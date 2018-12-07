@@ -1,0 +1,1071 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49641993B2B3F408175DBD64 /* Pods_KeyBoardTranslateReduxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAF9E9112422AE236EF3E6 /* Pods_KeyBoardTranslateReduxUITests.framework */; };
+		69813755200D98F05E81976C /* Pods_KeyBoardTranslateReduxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33741050ED6FBD8AC4DF0FE3 /* Pods_KeyBoardTranslateReduxTests.framework */; };
+		77133CC2F82AD52DA1EE04F5 /* Pods_KeyBoardTranslate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B093037D7BD22AE8C1EB01DD /* Pods_KeyBoardTranslate.framework */; };
+		BD12492021ADBC25008E5C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12491F21ADBC25008E5C59 /* AppDelegate.swift */; };
+		BD12492221ADBC25008E5C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12492121ADBC25008E5C59 /* ViewController.swift */; };
+		BD12492521ADBC25008E5C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD12492321ADBC25008E5C59 /* Main.storyboard */; };
+		BD12492721ADBC27008E5C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD12492621ADBC27008E5C59 /* Assets.xcassets */; };
+		BD12492A21ADBC27008E5C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD12492821ADBC27008E5C59 /* LaunchScreen.storyboard */; };
+		BD12493521ADBC27008E5C59 /* KeyBoardTranslateReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12493421ADBC27008E5C59 /* KeyBoardTranslateReduxTests.swift */; };
+		BD12494021ADBC27008E5C59 /* KeyBoardTranslateReduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12493F21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests.swift */; };
+		BD12495421ADBC5A008E5C59 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12495321ADBC5A008E5C59 /* KeyboardViewController.swift */; };
+		BD12495821ADBC5A008E5C59 /* KeyBoardTranslate.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BD12495121ADBC5A008E5C59 /* KeyBoardTranslate.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BD12496221ADC096008E5C59 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12496121ADC096008E5C59 /* AppState.swift */; };
+		BD12496321ADC096008E5C59 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12496121ADC096008E5C59 /* AppState.swift */; };
+		BD12496521ADC157008E5C59 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12496421ADC157008E5C59 /* AppReducer.swift */; };
+		BD12496621ADC157008E5C59 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12496421ADC157008E5C59 /* AppReducer.swift */; };
+		BD12496821ADC45F008E5C59 /* RoutingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12496721ADC45F008E5C59 /* RoutingAction.swift */; };
+		BD12496921ADC45F008E5C59 /* RoutingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12496721ADC45F008E5C59 /* RoutingAction.swift */; };
+		BD12496C21ADCC23008E5C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12491F21ADBC25008E5C59 /* AppDelegate.swift */; };
+		BD12496D21ADCE7A008E5C59 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12495321ADBC5A008E5C59 /* KeyboardViewController.swift */; };
+		BD12496F21ADD00E008E5C59 /* RoutingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12496E21ADD00E008E5C59 /* RoutingState.swift */; };
+		BD12497021ADD00E008E5C59 /* RoutingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12496E21ADD00E008E5C59 /* RoutingState.swift */; };
+		BD12497221ADD0AE008E5C59 /* RoutingReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497121ADD0AE008E5C59 /* RoutingReducer.swift */; };
+		BD12497321ADD0AE008E5C59 /* RoutingReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497121ADD0AE008E5C59 /* RoutingReducer.swift */; };
+		BD12497521ADE0C2008E5C59 /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497421ADE0C2008E5C59 /* KeyboardButton.swift */; };
+		BD12497721ADE0FF008E5C59 /* MainKeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497621ADE0FF008E5C59 /* MainKeyBoardView.swift */; };
+		BD12497921ADE2DB008E5C59 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497821ADE2DB008E5C59 /* Extensions.swift */; };
+		BD12497A21ADE4DD008E5C59 /* MainKeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497621ADE0FF008E5C59 /* MainKeyBoardView.swift */; };
+		BD12497B21ADE50E008E5C59 /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497421ADE0C2008E5C59 /* KeyboardButton.swift */; };
+		BD12497C21ADE511008E5C59 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497821ADE2DB008E5C59 /* Extensions.swift */; };
+		BD12497D21ADE66C008E5C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD12492621ADBC27008E5C59 /* Assets.xcassets */; };
+		BD12497F21AED9C5008E5C59 /* KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497E21AED9C4008E5C59 /* KeyboardState.swift */; };
+		BD12498021AED9C5008E5C59 /* KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12497E21AED9C4008E5C59 /* KeyboardState.swift */; };
+		BD12498221AEDB1D008E5C59 /* KeyReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12498121AEDB1D008E5C59 /* KeyReducer.swift */; };
+		BD12498321AEDB1D008E5C59 /* KeyReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12498121AEDB1D008E5C59 /* KeyReducer.swift */; };
+		BD12498521AEDC18008E5C59 /* keyBoardAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12498421AEDC18008E5C59 /* keyBoardAction.swift */; };
+		BD12498621AEDC18008E5C59 /* keyBoardAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12498421AEDC18008E5C59 /* keyBoardAction.swift */; };
+		BD12498921AF3DCB008E5C59 /* ToolBarTranslateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD12498821AF3DCB008E5C59 /* ToolBarTranslateView.xib */; };
+		BD12498A21AF3DCB008E5C59 /* ToolBarTranslateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD12498821AF3DCB008E5C59 /* ToolBarTranslateView.xib */; };
+		BD12498C21AF3E1D008E5C59 /* ToolBarTranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12498B21AF3E1D008E5C59 /* ToolBarTranslateView.swift */; };
+		BD12498D21AF3E1D008E5C59 /* ToolBarTranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12498B21AF3E1D008E5C59 /* ToolBarTranslateView.swift */; };
+		BD12498F21B03C7C008E5C59 /* ToolBarTranslateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12498E21B03C7C008E5C59 /* ToolBarTranslateState.swift */; };
+		BD12499021B03C7C008E5C59 /* ToolBarTranslateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12498E21B03C7C008E5C59 /* ToolBarTranslateState.swift */; };
+		BD12499221B04156008E5C59 /* ToolBarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12499121B04156008E5C59 /* ToolBarAction.swift */; };
+		BD12499321B04157008E5C59 /* ToolBarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12499121B04156008E5C59 /* ToolBarAction.swift */; };
+		BD12499521B04282008E5C59 /* ToolbarReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12499421B04282008E5C59 /* ToolbarReducer.swift */; };
+		BD12499621B04282008E5C59 /* ToolbarReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12499421B04282008E5C59 /* ToolbarReducer.swift */; };
+		BD16BDDF21B1A2D7001A2C2F /* SelectIdiomaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD16BDDE21B1A2D7001A2C2F /* SelectIdiomaView.xib */; };
+		BD16BDE021B1A2D7001A2C2F /* SelectIdiomaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD16BDDE21B1A2D7001A2C2F /* SelectIdiomaView.xib */; };
+		BD16BDE221B1A2FA001A2C2F /* SelectIdiomaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16BDE121B1A2FA001A2C2F /* SelectIdiomaView.swift */; };
+		BD16BDE321B1A2FA001A2C2F /* SelectIdiomaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16BDE121B1A2FA001A2C2F /* SelectIdiomaView.swift */; };
+		BD21E42021B70BB90052E71E /* GoogleTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E41F21B70BB80052E71E /* GoogleTranslate.swift */; };
+		BD21E42121B70BB90052E71E /* GoogleTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E41F21B70BB80052E71E /* GoogleTranslate.swift */; };
+		BD21E42321B950A90052E71E /* GoogleTranslateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E42221B950A90052E71E /* GoogleTranslateAction.swift */; };
+		BD21E42421B950AA0052E71E /* GoogleTranslateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E42221B950A90052E71E /* GoogleTranslateAction.swift */; };
+		BD21E42621B954C20052E71E /* GoogleTranslateReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E42521B954C20052E71E /* GoogleTranslateReducer.swift */; };
+		BD21E42721B954C20052E71E /* GoogleTranslateReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E42521B954C20052E71E /* GoogleTranslateReducer.swift */; };
+		BD21E42921B9560A0052E71E /* GoogleTranslateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E42821B9560A0052E71E /* GoogleTranslateState.swift */; };
+		BD21E42A21B9560A0052E71E /* GoogleTranslateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E42821B9560A0052E71E /* GoogleTranslateState.swift */; };
+		BD21E42C21B95BDB0052E71E /* TranslateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E42B21B95BDB0052E71E /* TranslateAction.swift */; };
+		BD21E42D21B95BDB0052E71E /* TranslateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21E42B21B95BDB0052E71E /* TranslateAction.swift */; };
+		F183461447B243C9111738C1 /* Pods_KeyBoardTranslateRedux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44DB1612223C190A6981195 /* Pods_KeyBoardTranslateRedux.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD12493121ADBC27008E5C59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD12491421ADBC25008E5C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD12491B21ADBC25008E5C59;
+			remoteInfo = KeyBoardTranslateRedux;
+		};
+		BD12493C21ADBC27008E5C59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD12491421ADBC25008E5C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD12491B21ADBC25008E5C59;
+			remoteInfo = KeyBoardTranslateRedux;
+		};
+		BD12495621ADBC5A008E5C59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD12491421ADBC25008E5C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD12495021ADBC5A008E5C59;
+			remoteInfo = KeyBoardTranslate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD12495C21ADBC5A008E5C59 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BD12495821ADBC5A008E5C59 /* KeyBoardTranslate.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07B2AF7D89616F3DA68C6AFA /* Pods-KeyBoardTranslateRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardTranslateRedux.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyBoardTranslateRedux/Pods-KeyBoardTranslateRedux.debug.xcconfig"; sourceTree = "<group>"; };
+		25BAF9E9112422AE236EF3E6 /* Pods_KeyBoardTranslateReduxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyBoardTranslateReduxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33273162DC85B09B67434CB4 /* Pods-KeyBoardTranslateReduxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardTranslateReduxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyBoardTranslateReduxUITests/Pods-KeyBoardTranslateReduxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33741050ED6FBD8AC4DF0FE3 /* Pods_KeyBoardTranslateReduxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyBoardTranslateReduxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDF299873A81B4C7469FCFC /* Pods-KeyBoardTranslate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardTranslate.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyBoardTranslate/Pods-KeyBoardTranslate.release.xcconfig"; sourceTree = "<group>"; };
+		8FBD4EAFA713A3572BCDA378 /* Pods-KeyBoardTranslateRedux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardTranslateRedux.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyBoardTranslateRedux/Pods-KeyBoardTranslateRedux.release.xcconfig"; sourceTree = "<group>"; };
+		96E0EE23D16E001D8A20EA8F /* Pods-KeyBoardTranslate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardTranslate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyBoardTranslate/Pods-KeyBoardTranslate.debug.xcconfig"; sourceTree = "<group>"; };
+		9A25590DE99CD0BC3C39B1C1 /* Pods-KeyBoardTranslateReduxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardTranslateReduxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyBoardTranslateReduxTests/Pods-KeyBoardTranslateReduxTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8D87B723135A33F75D0E270 /* Pods-KeyBoardTranslateReduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardTranslateReduxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyBoardTranslateReduxTests/Pods-KeyBoardTranslateReduxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B093037D7BD22AE8C1EB01DD /* Pods_KeyBoardTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyBoardTranslate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD12491C21ADBC25008E5C59 /* KeyBoardTranslateRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoardTranslateRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD12491F21ADBC25008E5C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD12492121ADBC25008E5C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD12492421ADBC25008E5C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD12492621ADBC27008E5C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD12492921ADBC27008E5C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD12492B21ADBC27008E5C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD12493021ADBC27008E5C59 /* KeyBoardTranslateReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardTranslateReduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD12493421ADBC27008E5C59 /* KeyBoardTranslateReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardTranslateReduxTests.swift; sourceTree = "<group>"; };
+		BD12493621ADBC27008E5C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD12493B21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardTranslateReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD12493F21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardTranslateReduxUITests.swift; sourceTree = "<group>"; };
+		BD12494121ADBC27008E5C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD12495121ADBC5A008E5C59 /* KeyBoardTranslate.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeyBoardTranslate.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD12495321ADBC5A008E5C59 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		BD12495521ADBC5A008E5C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD12496121ADC096008E5C59 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		BD12496421ADC157008E5C59 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		BD12496721ADC45F008E5C59 /* RoutingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAction.swift; sourceTree = "<group>"; };
+		BD12496E21ADD00E008E5C59 /* RoutingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingState.swift; sourceTree = "<group>"; };
+		BD12497121ADD0AE008E5C59 /* RoutingReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReducer.swift; sourceTree = "<group>"; };
+		BD12497421ADE0C2008E5C59 /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
+		BD12497621ADE0FF008E5C59 /* MainKeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainKeyBoardView.swift; sourceTree = "<group>"; };
+		BD12497821ADE2DB008E5C59 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BD12497E21AED9C4008E5C59 /* KeyboardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardState.swift; sourceTree = "<group>"; };
+		BD12498121AEDB1D008E5C59 /* KeyReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyReducer.swift; sourceTree = "<group>"; };
+		BD12498421AEDC18008E5C59 /* keyBoardAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyBoardAction.swift; sourceTree = "<group>"; };
+		BD12498821AF3DCB008E5C59 /* ToolBarTranslateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToolBarTranslateView.xib; sourceTree = "<group>"; };
+		BD12498B21AF3E1D008E5C59 /* ToolBarTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarTranslateView.swift; sourceTree = "<group>"; };
+		BD12498E21B03C7C008E5C59 /* ToolBarTranslateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarTranslateState.swift; sourceTree = "<group>"; };
+		BD12499121B04156008E5C59 /* ToolBarAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarAction.swift; sourceTree = "<group>"; };
+		BD12499421B04282008E5C59 /* ToolbarReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarReducer.swift; sourceTree = "<group>"; };
+		BD16BDDE21B1A2D7001A2C2F /* SelectIdiomaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectIdiomaView.xib; sourceTree = "<group>"; };
+		BD16BDE121B1A2FA001A2C2F /* SelectIdiomaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectIdiomaView.swift; sourceTree = "<group>"; };
+		BD21E41F21B70BB80052E71E /* GoogleTranslate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleTranslate.swift; sourceTree = "<group>"; };
+		BD21E42221B950A90052E71E /* GoogleTranslateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTranslateAction.swift; sourceTree = "<group>"; };
+		BD21E42521B954C20052E71E /* GoogleTranslateReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTranslateReducer.swift; sourceTree = "<group>"; };
+		BD21E42821B9560A0052E71E /* GoogleTranslateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTranslateState.swift; sourceTree = "<group>"; };
+		BD21E42B21B95BDB0052E71E /* TranslateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateAction.swift; sourceTree = "<group>"; };
+		D44DB1612223C190A6981195 /* Pods_KeyBoardTranslateRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyBoardTranslateRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDED33004D7B0CEB14E1F701 /* Pods-KeyBoardTranslateReduxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardTranslateReduxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyBoardTranslateReduxUITests/Pods-KeyBoardTranslateReduxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD12491921ADBC25008E5C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F183461447B243C9111738C1 /* Pods_KeyBoardTranslateRedux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12492D21ADBC27008E5C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69813755200D98F05E81976C /* Pods_KeyBoardTranslateReduxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12493821ADBC27008E5C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49641993B2B3F408175DBD64 /* Pods_KeyBoardTranslateReduxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12494E21ADBC5A008E5C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77133CC2F82AD52DA1EE04F5 /* Pods_KeyBoardTranslate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FB085DBBD2149287DA6A479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B093037D7BD22AE8C1EB01DD /* Pods_KeyBoardTranslate.framework */,
+				D44DB1612223C190A6981195 /* Pods_KeyBoardTranslateRedux.framework */,
+				33741050ED6FBD8AC4DF0FE3 /* Pods_KeyBoardTranslateReduxTests.framework */,
+				25BAF9E9112422AE236EF3E6 /* Pods_KeyBoardTranslateReduxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79B05250C23004BD2ED73184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96E0EE23D16E001D8A20EA8F /* Pods-KeyBoardTranslate.debug.xcconfig */,
+				6FDF299873A81B4C7469FCFC /* Pods-KeyBoardTranslate.release.xcconfig */,
+				07B2AF7D89616F3DA68C6AFA /* Pods-KeyBoardTranslateRedux.debug.xcconfig */,
+				8FBD4EAFA713A3572BCDA378 /* Pods-KeyBoardTranslateRedux.release.xcconfig */,
+				A8D87B723135A33F75D0E270 /* Pods-KeyBoardTranslateReduxTests.debug.xcconfig */,
+				9A25590DE99CD0BC3C39B1C1 /* Pods-KeyBoardTranslateReduxTests.release.xcconfig */,
+				DDED33004D7B0CEB14E1F701 /* Pods-KeyBoardTranslateReduxUITests.debug.xcconfig */,
+				33273162DC85B09B67434CB4 /* Pods-KeyBoardTranslateReduxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD12491321ADBC25008E5C59 = {
+			isa = PBXGroup;
+			children = (
+				BD12491E21ADBC25008E5C59 /* KeyBoardTranslateRedux */,
+				BD12493321ADBC27008E5C59 /* KeyBoardTranslateReduxTests */,
+				BD12493E21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests */,
+				BD12495221ADBC5A008E5C59 /* KeyBoardTranslate */,
+				BD12491D21ADBC25008E5C59 /* Products */,
+				79B05250C23004BD2ED73184 /* Pods */,
+				6FB085DBBD2149287DA6A479 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD12491D21ADBC25008E5C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD12491C21ADBC25008E5C59 /* KeyBoardTranslateRedux.app */,
+				BD12493021ADBC27008E5C59 /* KeyBoardTranslateReduxTests.xctest */,
+				BD12493B21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests.xctest */,
+				BD12495121ADBC5A008E5C59 /* KeyBoardTranslate.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD12491E21ADBC25008E5C59 /* KeyBoardTranslateRedux */ = {
+			isa = PBXGroup;
+			children = (
+				BD12491F21ADBC25008E5C59 /* AppDelegate.swift */,
+				BD12492121ADBC25008E5C59 /* ViewController.swift */,
+				BD12492321ADBC25008E5C59 /* Main.storyboard */,
+				BD12492621ADBC27008E5C59 /* Assets.xcassets */,
+				BD12492821ADBC27008E5C59 /* LaunchScreen.storyboard */,
+				BD12492B21ADBC27008E5C59 /* Info.plist */,
+			);
+			path = KeyBoardTranslateRedux;
+			sourceTree = "<group>";
+		};
+		BD12493321ADBC27008E5C59 /* KeyBoardTranslateReduxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD12493421ADBC27008E5C59 /* KeyBoardTranslateReduxTests.swift */,
+				BD12493621ADBC27008E5C59 /* Info.plist */,
+			);
+			path = KeyBoardTranslateReduxTests;
+			sourceTree = "<group>";
+		};
+		BD12493E21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD12493F21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests.swift */,
+				BD12494121ADBC27008E5C59 /* Info.plist */,
+			);
+			path = KeyBoardTranslateReduxUITests;
+			sourceTree = "<group>";
+		};
+		BD12495221ADBC5A008E5C59 /* KeyBoardTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				BD12495321ADBC5A008E5C59 /* KeyboardViewController.swift */,
+				BD12496A21ADC8A5008E5C59 /* Views */,
+				BD12496021ADBFD4008E5C59 /* Actions */,
+				BD12495F21ADBFCC008E5C59 /* Reducers */,
+				BD12495D21ADBFBC008E5C59 /* States */,
+				BD12495521ADBC5A008E5C59 /* Info.plist */,
+			);
+			path = KeyBoardTranslate;
+			sourceTree = "<group>";
+		};
+		BD12495D21ADBFBC008E5C59 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				BD12496121ADC096008E5C59 /* AppState.swift */,
+				BD12497E21AED9C4008E5C59 /* KeyboardState.swift */,
+				BD12498E21B03C7C008E5C59 /* ToolBarTranslateState.swift */,
+				BD21E42821B9560A0052E71E /* GoogleTranslateState.swift */,
+				BD12496E21ADD00E008E5C59 /* RoutingState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		BD12495F21ADBFCC008E5C59 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				BD12496421ADC157008E5C59 /* AppReducer.swift */,
+				BD12497121ADD0AE008E5C59 /* RoutingReducer.swift */,
+				BD12498121AEDB1D008E5C59 /* KeyReducer.swift */,
+				BD12499421B04282008E5C59 /* ToolbarReducer.swift */,
+				BD21E42521B954C20052E71E /* GoogleTranslateReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		BD12496021ADBFD4008E5C59 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				BD12496721ADC45F008E5C59 /* RoutingAction.swift */,
+				BD12498421AEDC18008E5C59 /* keyBoardAction.swift */,
+				BD12499121B04156008E5C59 /* ToolBarAction.swift */,
+				BD21E42221B950A90052E71E /* GoogleTranslateAction.swift */,
+				BD21E42B21B95BDB0052E71E /* TranslateAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		BD12496A21ADC8A5008E5C59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD21E41F21B70BB80052E71E /* GoogleTranslate.swift */,
+				BD12498721AF3D9A008E5C59 /* toolbarTraductor */,
+				BD16BDDD21B1A2B3001A2C2F /* selectIdioma */,
+				BD12497821ADE2DB008E5C59 /* Extensions.swift */,
+				BD12497421ADE0C2008E5C59 /* KeyboardButton.swift */,
+				BD12497621ADE0FF008E5C59 /* MainKeyBoardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD12498721AF3D9A008E5C59 /* toolbarTraductor */ = {
+			isa = PBXGroup;
+			children = (
+				BD12498821AF3DCB008E5C59 /* ToolBarTranslateView.xib */,
+				BD12498B21AF3E1D008E5C59 /* ToolBarTranslateView.swift */,
+			);
+			path = toolbarTraductor;
+			sourceTree = "<group>";
+		};
+		BD16BDDD21B1A2B3001A2C2F /* selectIdioma */ = {
+			isa = PBXGroup;
+			children = (
+				BD16BDDE21B1A2D7001A2C2F /* SelectIdiomaView.xib */,
+				BD16BDE121B1A2FA001A2C2F /* SelectIdiomaView.swift */,
+			);
+			path = selectIdioma;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD12491B21ADBC25008E5C59 /* KeyBoardTranslateRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD12494421ADBC27008E5C59 /* Build configuration list for PBXNativeTarget "KeyBoardTranslateRedux" */;
+			buildPhases = (
+				1BCCFDCAD08565AB7291649E /* [CP] Check Pods Manifest.lock */,
+				BD12491821ADBC25008E5C59 /* Sources */,
+				BD12491921ADBC25008E5C59 /* Frameworks */,
+				BD12491A21ADBC25008E5C59 /* Resources */,
+				BD12495C21ADBC5A008E5C59 /* Embed App Extensions */,
+				5FBD6A351A84E84D70190880 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD12495721ADBC5A008E5C59 /* PBXTargetDependency */,
+			);
+			name = KeyBoardTranslateRedux;
+			productName = KeyBoardTranslateRedux;
+			productReference = BD12491C21ADBC25008E5C59 /* KeyBoardTranslateRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD12492F21ADBC27008E5C59 /* KeyBoardTranslateReduxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD12494721ADBC27008E5C59 /* Build configuration list for PBXNativeTarget "KeyBoardTranslateReduxTests" */;
+			buildPhases = (
+				B60095D73392484B61B27623 /* [CP] Check Pods Manifest.lock */,
+				BD12492C21ADBC27008E5C59 /* Sources */,
+				BD12492D21ADBC27008E5C59 /* Frameworks */,
+				BD12492E21ADBC27008E5C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD12493221ADBC27008E5C59 /* PBXTargetDependency */,
+			);
+			name = KeyBoardTranslateReduxTests;
+			productName = KeyBoardTranslateReduxTests;
+			productReference = BD12493021ADBC27008E5C59 /* KeyBoardTranslateReduxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD12493A21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD12494A21ADBC27008E5C59 /* Build configuration list for PBXNativeTarget "KeyBoardTranslateReduxUITests" */;
+			buildPhases = (
+				B403ED56551520483496040A /* [CP] Check Pods Manifest.lock */,
+				BD12493721ADBC27008E5C59 /* Sources */,
+				BD12493821ADBC27008E5C59 /* Frameworks */,
+				BD12493921ADBC27008E5C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD12493D21ADBC27008E5C59 /* PBXTargetDependency */,
+			);
+			name = KeyBoardTranslateReduxUITests;
+			productName = KeyBoardTranslateReduxUITests;
+			productReference = BD12493B21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BD12495021ADBC5A008E5C59 /* KeyBoardTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD12495921ADBC5A008E5C59 /* Build configuration list for PBXNativeTarget "KeyBoardTranslate" */;
+			buildPhases = (
+				8EBF8698B0F6A5DF43C47FB9 /* [CP] Check Pods Manifest.lock */,
+				BD12494D21ADBC5A008E5C59 /* Sources */,
+				BD12494E21ADBC5A008E5C59 /* Frameworks */,
+				BD12494F21ADBC5A008E5C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyBoardTranslate;
+			productName = KeyBoardTranslate;
+			productReference = BD12495121ADBC5A008E5C59 /* KeyBoardTranslate.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD12491421ADBC25008E5C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = EinsteinDarwin;
+				TargetAttributes = {
+					BD12491B21ADBC25008E5C59 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BD12492F21ADBC27008E5C59 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BD12491B21ADBC25008E5C59;
+					};
+					BD12493A21ADBC27008E5C59 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BD12491B21ADBC25008E5C59;
+					};
+					BD12495021ADBC5A008E5C59 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BD12491721ADBC25008E5C59 /* Build configuration list for PBXProject "KeyBoardTranslateRedux" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD12491321ADBC25008E5C59;
+			productRefGroup = BD12491D21ADBC25008E5C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD12491B21ADBC25008E5C59 /* KeyBoardTranslateRedux */,
+				BD12492F21ADBC27008E5C59 /* KeyBoardTranslateReduxTests */,
+				BD12493A21ADBC27008E5C59 /* KeyBoardTranslateReduxUITests */,
+				BD12495021ADBC5A008E5C59 /* KeyBoardTranslate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD12491A21ADBC25008E5C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12492A21ADBC27008E5C59 /* LaunchScreen.storyboard in Resources */,
+				BD12498921AF3DCB008E5C59 /* ToolBarTranslateView.xib in Resources */,
+				BD12492721ADBC27008E5C59 /* Assets.xcassets in Resources */,
+				BD16BDDF21B1A2D7001A2C2F /* SelectIdiomaView.xib in Resources */,
+				BD12492521ADBC25008E5C59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12492E21ADBC27008E5C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12493921ADBC27008E5C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12494F21ADBC5A008E5C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12497D21ADE66C008E5C59 /* Assets.xcassets in Resources */,
+				BD16BDE021B1A2D7001A2C2F /* SelectIdiomaView.xib in Resources */,
+				BD12498A21AF3DCB008E5C59 /* ToolBarTranslateView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BCCFDCAD08565AB7291649E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyBoardTranslateRedux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FBD6A351A84E84D70190880 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KeyBoardTranslateRedux/Pods-KeyBoardTranslateRedux-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyBoardTranslateRedux/Pods-KeyBoardTranslateRedux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EBF8698B0F6A5DF43C47FB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyBoardTranslate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B403ED56551520483496040A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyBoardTranslateReduxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60095D73392484B61B27623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyBoardTranslateReduxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD12491821ADBC25008E5C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12497B21ADE50E008E5C59 /* KeyboardButton.swift in Sources */,
+				BD16BDE221B1A2FA001A2C2F /* SelectIdiomaView.swift in Sources */,
+				BD12499221B04156008E5C59 /* ToolBarAction.swift in Sources */,
+				BD12496F21ADD00E008E5C59 /* RoutingState.swift in Sources */,
+				BD21E42321B950A90052E71E /* GoogleTranslateAction.swift in Sources */,
+				BD12497221ADD0AE008E5C59 /* RoutingReducer.swift in Sources */,
+				BD21E42921B9560A0052E71E /* GoogleTranslateState.swift in Sources */,
+				BD12496821ADC45F008E5C59 /* RoutingAction.swift in Sources */,
+				BD12496D21ADCE7A008E5C59 /* KeyboardViewController.swift in Sources */,
+				BD12496221ADC096008E5C59 /* AppState.swift in Sources */,
+				BD12492221ADBC25008E5C59 /* ViewController.swift in Sources */,
+				BD12496521ADC157008E5C59 /* AppReducer.swift in Sources */,
+				BD12498F21B03C7C008E5C59 /* ToolBarTranslateState.swift in Sources */,
+				BD12499521B04282008E5C59 /* ToolbarReducer.swift in Sources */,
+				BD12497F21AED9C5008E5C59 /* KeyboardState.swift in Sources */,
+				BD12492021ADBC25008E5C59 /* AppDelegate.swift in Sources */,
+				BD12498C21AF3E1D008E5C59 /* ToolBarTranslateView.swift in Sources */,
+				BD21E42021B70BB90052E71E /* GoogleTranslate.swift in Sources */,
+				BD12498221AEDB1D008E5C59 /* KeyReducer.swift in Sources */,
+				BD21E42621B954C20052E71E /* GoogleTranslateReducer.swift in Sources */,
+				BD21E42C21B95BDB0052E71E /* TranslateAction.swift in Sources */,
+				BD12497C21ADE511008E5C59 /* Extensions.swift in Sources */,
+				BD12498521AEDC18008E5C59 /* keyBoardAction.swift in Sources */,
+				BD12497A21ADE4DD008E5C59 /* MainKeyBoardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12492C21ADBC27008E5C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12493521ADBC27008E5C59 /* KeyBoardTranslateReduxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12493721ADBC27008E5C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12494021ADBC27008E5C59 /* KeyBoardTranslateReduxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD12494D21ADBC5A008E5C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD12497021ADD00E008E5C59 /* RoutingState.swift in Sources */,
+				BD21E42721B954C20052E71E /* GoogleTranslateReducer.swift in Sources */,
+				BD12498D21AF3E1D008E5C59 /* ToolBarTranslateView.swift in Sources */,
+				BD12496921ADC45F008E5C59 /* RoutingAction.swift in Sources */,
+				BD21E42421B950AA0052E71E /* GoogleTranslateAction.swift in Sources */,
+				BD12498321AEDB1D008E5C59 /* KeyReducer.swift in Sources */,
+				BD21E42D21B95BDB0052E71E /* TranslateAction.swift in Sources */,
+				BD12499621B04282008E5C59 /* ToolbarReducer.swift in Sources */,
+				BD12496621ADC157008E5C59 /* AppReducer.swift in Sources */,
+				BD12495421ADBC5A008E5C59 /* KeyboardViewController.swift in Sources */,
+				BD12497521ADE0C2008E5C59 /* KeyboardButton.swift in Sources */,
+				BD12498621AEDC18008E5C59 /* keyBoardAction.swift in Sources */,
+				BD21E42A21B9560A0052E71E /* GoogleTranslateState.swift in Sources */,
+				BD12498021AED9C5008E5C59 /* KeyboardState.swift in Sources */,
+				BD12497921ADE2DB008E5C59 /* Extensions.swift in Sources */,
+				BD12497321ADD0AE008E5C59 /* RoutingReducer.swift in Sources */,
+				BD12496C21ADCC23008E5C59 /* AppDelegate.swift in Sources */,
+				BD12496321ADC096008E5C59 /* AppState.swift in Sources */,
+				BD12497721ADE0FF008E5C59 /* MainKeyBoardView.swift in Sources */,
+				BD16BDE321B1A2FA001A2C2F /* SelectIdiomaView.swift in Sources */,
+				BD21E42121B70BB90052E71E /* GoogleTranslate.swift in Sources */,
+				BD12499021B03C7C008E5C59 /* ToolBarTranslateState.swift in Sources */,
+				BD12499321B04157008E5C59 /* ToolBarAction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD12493221ADBC27008E5C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD12491B21ADBC25008E5C59 /* KeyBoardTranslateRedux */;
+			targetProxy = BD12493121ADBC27008E5C59 /* PBXContainerItemProxy */;
+		};
+		BD12493D21ADBC27008E5C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD12491B21ADBC25008E5C59 /* KeyBoardTranslateRedux */;
+			targetProxy = BD12493C21ADBC27008E5C59 /* PBXContainerItemProxy */;
+		};
+		BD12495721ADBC5A008E5C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD12495021ADBC5A008E5C59 /* KeyBoardTranslate */;
+			targetProxy = BD12495621ADBC5A008E5C59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD12492321ADBC25008E5C59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD12492421ADBC25008E5C59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD12492821ADBC27008E5C59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD12492921ADBC27008E5C59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD12494221ADBC27008E5C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD12494321ADBC27008E5C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD12494521ADBC27008E5C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B2AF7D89616F3DA68C6AFA /* Pods-KeyBoardTranslateRedux.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G57AH7AS;
+				INFOPLIST_FILE = KeyBoardTranslateRedux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.acktos.KeyBoardTranslateRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD12494621ADBC27008E5C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBD4EAFA713A3572BCDA378 /* Pods-KeyBoardTranslateRedux.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G57AH7AS;
+				INFOPLIST_FILE = KeyBoardTranslateRedux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.acktos.KeyBoardTranslateRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD12494821ADBC27008E5C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D87B723135A33F75D0E270 /* Pods-KeyBoardTranslateReduxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G57AH7AS;
+				INFOPLIST_FILE = KeyBoardTranslateReduxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.acktos.KeyBoardTranslateReduxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardTranslateRedux.app/KeyBoardTranslateRedux";
+			};
+			name = Debug;
+		};
+		BD12494921ADBC27008E5C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A25590DE99CD0BC3C39B1C1 /* Pods-KeyBoardTranslateReduxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G57AH7AS;
+				INFOPLIST_FILE = KeyBoardTranslateReduxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.acktos.KeyBoardTranslateReduxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardTranslateRedux.app/KeyBoardTranslateRedux";
+			};
+			name = Release;
+		};
+		BD12494B21ADBC27008E5C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDED33004D7B0CEB14E1F701 /* Pods-KeyBoardTranslateReduxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G57AH7AS;
+				INFOPLIST_FILE = KeyBoardTranslateReduxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.acktos.KeyBoardTranslateReduxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyBoardTranslateRedux;
+			};
+			name = Debug;
+		};
+		BD12494C21ADBC27008E5C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33273162DC85B09B67434CB4 /* Pods-KeyBoardTranslateReduxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G57AH7AS;
+				INFOPLIST_FILE = KeyBoardTranslateReduxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.acktos.KeyBoardTranslateReduxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyBoardTranslateRedux;
+			};
+			name = Release;
+		};
+		BD12495A21ADBC5A008E5C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E0EE23D16E001D8A20EA8F /* Pods-KeyBoardTranslate.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G57AH7AS;
+				INFOPLIST_FILE = KeyBoardTranslate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.acktos.KeyBoardTranslateRedux.KeyBoardTranslate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD12495B21ADBC5A008E5C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDF299873A81B4C7469FCFC /* Pods-KeyBoardTranslate.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G57AH7AS;
+				INFOPLIST_FILE = KeyBoardTranslate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.acktos.KeyBoardTranslateRedux.KeyBoardTranslate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD12491721ADBC25008E5C59 /* Build configuration list for PBXProject "KeyBoardTranslateRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD12494221ADBC27008E5C59 /* Debug */,
+				BD12494321ADBC27008E5C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD12494421ADBC27008E5C59 /* Build configuration list for PBXNativeTarget "KeyBoardTranslateRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD12494521ADBC27008E5C59 /* Debug */,
+				BD12494621ADBC27008E5C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD12494721ADBC27008E5C59 /* Build configuration list for PBXNativeTarget "KeyBoardTranslateReduxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD12494821ADBC27008E5C59 /* Debug */,
+				BD12494921ADBC27008E5C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD12494A21ADBC27008E5C59 /* Build configuration list for PBXNativeTarget "KeyBoardTranslateReduxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD12494B21ADBC27008E5C59 /* Debug */,
+				BD12494C21ADBC27008E5C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD12495921ADBC5A008E5C59 /* Build configuration list for PBXNativeTarget "KeyBoardTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD12495A21ADBC5A008E5C59 /* Debug */,
+				BD12495B21ADBC5A008E5C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD12491421ADBC25008E5C59 /* Project object */;
+}

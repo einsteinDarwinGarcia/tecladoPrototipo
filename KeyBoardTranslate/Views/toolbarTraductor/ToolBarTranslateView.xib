@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pYL-af-qIb" customClass="ToolBarTranslateView" customModule="KeyBoardTranslate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="492" height="142"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlf-UH-ulJ">
+                    <rect key="frame" x="95" y="0.0" width="45" height="142"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="3k7-m9-NHD"/>
+                    </constraints>
+                    <state key="normal" image="icons8-data-transfer-24"/>
+                    <connections>
+                        <action selector="changeIdioma:" destination="pYL-af-qIb" eventType="touchUpInside" id="ZAT-KI-lnu"/>
+                    </connections>
+                </button>
+                <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Efr-yt-GtR">
+                    <rect key="frame" x="374" y="0.0" width="118" height="142"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="118" id="VfZ-0O-L1y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <state key="normal" title="Translate">
+                        <color key="titleColor" red="0.073216673499999996" green="0.71348844609999995" blue="0.98605445030000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="0.1799606788" green="0.42691390470000001" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonTranslate:" destination="pYL-af-qIb" eventType="touchUpInside" id="Acy-v2-EQF"/>
+                    </connections>
+                </button>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="jN8-Rf-n2i">
+                    <rect key="frame" x="335" y="61" width="20" height="20"/>
+                </activityIndicatorView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hg3-D1-mv1">
+                    <rect key="frame" x="20" y="0.0" width="70" height="142"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="wxv-EK-0oy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <connections>
+                        <action selector="selectIdiomaFrom:" destination="pYL-af-qIb" eventType="touchUpInside" id="Ae9-vo-2bK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXU-o7-Ush">
+                    <rect key="frame" x="160" y="0.0" width="70" height="142"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="HES-ls-XdM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <connections>
+                        <action selector="selectIdiomaTo:" destination="pYL-af-qIb" eventType="touchUpInside" id="Dei-Pl-7iE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="D7V-ll-qWT" firstAttribute="bottom" secondItem="Efr-yt-GtR" secondAttribute="bottom" id="83y-V3-J2z"/>
+                <constraint firstItem="RXU-o7-Ush" firstAttribute="leading" secondItem="mlf-UH-ulJ" secondAttribute="trailing" constant="20" id="ESD-pS-NZU"/>
+                <constraint firstItem="D7V-ll-qWT" firstAttribute="bottom" secondItem="jN8-Rf-n2i" secondAttribute="bottom" constant="61" id="EnL-qB-Oa4"/>
+                <constraint firstItem="Hg3-D1-mv1" firstAttribute="bottom" secondItem="D7V-ll-qWT" secondAttribute="bottom" id="MeD-KU-1wO"/>
+                <constraint firstItem="jN8-Rf-n2i" firstAttribute="top" secondItem="D7V-ll-qWT" secondAttribute="top" constant="61" id="OCT-2A-THl"/>
+                <constraint firstItem="D7V-ll-qWT" firstAttribute="bottom" secondItem="mlf-UH-ulJ" secondAttribute="bottom" id="VGV-M1-JUc"/>
+                <constraint firstItem="D7V-ll-qWT" firstAttribute="trailing" secondItem="Efr-yt-GtR" secondAttribute="trailing" id="XUV-NA-NUO"/>
+                <constraint firstItem="mlf-UH-ulJ" firstAttribute="leading" secondItem="Hg3-D1-mv1" secondAttribute="trailing" constant="5" id="YAt-aX-qsv"/>
+                <constraint firstItem="Hg3-D1-mv1" firstAttribute="leading" secondItem="D7V-ll-qWT" secondAttribute="leading" constant="20" id="eNh-hO-HNF"/>
+                <constraint firstItem="Efr-yt-GtR" firstAttribute="leading" secondItem="jN8-Rf-n2i" secondAttribute="trailing" constant="19" id="mAO-l4-9gE"/>
+                <constraint firstItem="D7V-ll-qWT" firstAttribute="bottom" secondItem="RXU-o7-Ush" secondAttribute="bottom" id="nwT-p5-aIK"/>
+                <constraint firstItem="RXU-o7-Ush" firstAttribute="top" secondItem="D7V-ll-qWT" secondAttribute="top" id="q2e-jl-Bq0"/>
+                <constraint firstItem="mlf-UH-ulJ" firstAttribute="top" secondItem="D7V-ll-qWT" secondAttribute="top" id="t3e-bc-7uI"/>
+                <constraint firstItem="Efr-yt-GtR" firstAttribute="top" secondItem="D7V-ll-qWT" secondAttribute="top" id="wSh-WJ-3bY"/>
+                <constraint firstItem="Hg3-D1-mv1" firstAttribute="top" secondItem="D7V-ll-qWT" secondAttribute="top" id="yBg-hv-88q"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="D7V-ll-qWT"/>
+            <connections>
+                <outlet property="fromButton" destination="Hg3-D1-mv1" id="t3G-sz-2qJ"/>
+                <outlet property="toButton" destination="RXU-o7-Ush" id="JfA-qw-hxU"/>
+            </connections>
+            <point key="canvasLocation" x="261" y="705"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icons8-data-transfer-24" width="24" height="24"/>
+    </resources>
+</document>

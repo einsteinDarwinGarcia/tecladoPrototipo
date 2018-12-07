@@ -1,0 +1,1207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CE09FFCCA53DB5C01D16BE05756BB2 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C9E17987035DE48EA9493A0C11119 /* StoreType.swift */; };
+		0A0C55CC371346C9421FC893C497F301 /* Pods-KeyBoardTranslateReduxUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F883388BAA46E79A62819CC5BD022 /* Pods-KeyBoardTranslateReduxUITests-dummy.m */; };
+		2B484BE70F975B1C199D861B71369E05 /* ReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C725CAA1819E4CE7F26BCE1C18EC0C29 /* ReSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30FFF2D9613DCFC60CAA19801DD93F36 /* Pods-KeyBoardTranslateReduxTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B43FF3965E2F3AA7D0B74BA1DAF561D0 /* Pods-KeyBoardTranslateReduxTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321FAD8B749B8C008BA4AA6DB127088B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		37E7D5281F0829E487F9F82A8EF79D1F /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871B7066428FF774C5F9208197F11C /* Middleware.swift */; };
+		3C77B5B88F3F1161224C64F77742889D /* Pods-KeyBoardTranslateRedux-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0FB3D02BB2959BA735D929BD1F895D /* Pods-KeyBoardTranslateRedux-dummy.m */; };
+		3FCB2C4BB2C5CA6DBE3B559530ED4890 /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E955BFC89A34FDBF7FEE7631E7D19 /* DispatchingStoreType.swift */; };
+		417E0875BE94082D472410FD0CE5F33D /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71271725DE5CCC0BBEE81EB8E9D98E82 /* Reducer.swift */; };
+		420CBE39B90A08B4475518687EDEE4EA /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64CEF372085B24E500493911C621F9 /* StoreSubscriber.swift */; };
+		4BAE87FC0D1298FDB07FD12DCCFF539F /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FF8A70D2AC7A1D137462E1C3E5CB1 /* Subscription.swift */; };
+		50E91FEF7B3AB38BF61E7F7A79714623 /* Pods-KeyBoardTranslateRedux-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD41C1D71FE5DFE5E3FAF10D04C97C0 /* Pods-KeyBoardTranslateRedux-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CA69E6C043FE4994649CB9E08888866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		72E5F1200C943CD9DFAA374F43A06B5F /* Pods-KeyBoardTranslateReduxTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD0B7F47A5C34C9CC79E6F93666367 /* Pods-KeyBoardTranslateReduxTests-dummy.m */; };
+		86DC9653CD135CEF03426CBEDC5D7354 /* Pods-KeyBoardTranslate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC712117A3B952F15F674F79A1366CAF /* Pods-KeyBoardTranslate-dummy.m */; };
+		8D49C30B746100857A1E86726413DE59 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBAF76151CF858D574A099D1E7FC21 /* Store.swift */; };
+		8E0B582B9B5DE956EB007F49EB52634C /* Pods-KeyBoardTranslate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D027EEA0841CD848AF2BB5490877E3EA /* Pods-KeyBoardTranslate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4BB24DA53B0B1F746EF5975694C4D00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		AD0392BEDDECAC257E70713CEFE962B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		B0C2455D44D113ACBD277EB8ABE59FDC /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C38E9357DF11B55A4279C68A73D47 /* Assertions.swift */; };
+		B9EE3D1B402909900FBA96C15DDF9DA4 /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDC964B22DDA588870C260A7A333C6 /* TypeHelper.swift */; };
+		D46C4E2E97CC44D8E964B256BAC31F2E /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711A63FBF227A0CA669ED1D1EDB8F56 /* Action.swift */; };
+		E0F49733763771E645AE32918DF513E8 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79671FE58DCBAC8FB9711561D02ED4DA /* Coding.swift */; };
+		E1D8428C63FC6E33B8D900071381AB12 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E8868F8F6D6961F33EDED16FF1D5E /* State.swift */; };
+		F3EAEDAD8EDED91D6DB23887A1D40A6A /* ReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB752D7054DBEA116738D7BA747A85 /* ReSwift-dummy.m */; };
+		F612840D30EA84B185965AA0564718AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		FE7CDADFC352C70A3F72C8A16890AB39 /* Pods-KeyBoardTranslateReduxUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B11305345C9146F312FEF498EEB50C /* Pods-KeyBoardTranslateReduxUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		194A1E79E4818F6DEC02FDFA1AAAFCDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF578DEE2D81CB22796C739D406FB35;
+			remoteInfo = "Pods-KeyBoardTranslateRedux";
+		};
+		3098044F3410091936B0826B7E3BD86F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF578DEE2D81CB22796C739D406FB35;
+			remoteInfo = "Pods-KeyBoardTranslateRedux";
+		};
+		603EAFB0AFFC46DE7E3AB7A47575D3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90ABA8CF9385A30ECBD535052111B93D;
+			remoteInfo = ReSwift;
+		};
+		849D796E419DC303D3EFE6C696C5DBF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90ABA8CF9385A30ECBD535052111B93D;
+			remoteInfo = ReSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C18BF2213C2AF554FAD5854A03E0DB7 /* Pods-KeyBoardTranslateRedux-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyBoardTranslateRedux-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C5F79F4D96358DFE9F3D94895A0A9D8 /* Pods-KeyBoardTranslateRedux.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyBoardTranslateRedux.modulemap"; sourceTree = "<group>"; };
+		0CCD0B7F47A5C34C9CC79E6F93666367 /* Pods-KeyBoardTranslateReduxTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyBoardTranslateReduxTests-dummy.m"; sourceTree = "<group>"; };
+		0D4F8F84A4DF5DFF54D6084AABE9609C /* Pods-KeyBoardTranslateRedux-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyBoardTranslateRedux-resources.sh"; sourceTree = "<group>"; };
+		11D213B08C7F64BEE419354F0EAF8BB8 /* Pods-KeyBoardTranslateReduxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyBoardTranslateReduxTests.release.xcconfig"; sourceTree = "<group>"; };
+		1B88AFC478297538764F317C8CEF244F /* Pods-KeyBoardTranslateReduxUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyBoardTranslateReduxUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1EC5EF70ED8243F93FA55E435DDD724B /* Pods-KeyBoardTranslateReduxTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyBoardTranslateReduxTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F3C38E9357DF11B55A4279C68A73D47 /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ReSwift/Utils/Assertions.swift; sourceTree = "<group>"; };
+		2711A63FBF227A0CA669ED1D1EDB8F56 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ReSwift/CoreTypes/Action.swift; sourceTree = "<group>"; };
+		2F5F883388BAA46E79A62819CC5BD022 /* Pods-KeyBoardTranslateReduxUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyBoardTranslateReduxUITests-dummy.m"; sourceTree = "<group>"; };
+		305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwift.xcconfig; sourceTree = "<group>"; };
+		337BBB7B85A458B2620E448580EDAFE0 /* Pods-KeyBoardTranslateRedux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyBoardTranslateRedux.release.xcconfig"; sourceTree = "<group>"; };
+		35CE541BE9CE838D587F5063FB8D742E /* Pods-KeyBoardTranslate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyBoardTranslate.release.xcconfig"; sourceTree = "<group>"; };
+		375E8868F8F6D6961F33EDED16FF1D5E /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = ReSwift/CoreTypes/State.swift; sourceTree = "<group>"; };
+		3D9D76454766FBB81CD79A014FE426AC /* Pods-KeyBoardTranslate-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyBoardTranslate-resources.sh"; sourceTree = "<group>"; };
+		3EFF0C6D0A2288DC7225FD53DF1CAB48 /* Pods-KeyBoardTranslateReduxUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyBoardTranslateReduxUITests-resources.sh"; sourceTree = "<group>"; };
+		3F7355F99DC876FEFD5038EB3D5E107B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579EB498F0652077B1423A97A9C93C12 /* Pods_KeyBoardTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyBoardTranslate.framework; path = "Pods-KeyBoardTranslate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5848E9038E87BB49D88C127F97F8E250 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F88EA6A3DE1B644694E0EE9E987BEB /* Pods-KeyBoardTranslateReduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyBoardTranslateReduxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		676C911AE9E1128B4B837B9020F91ECC /* Pods_KeyBoardTranslateReduxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyBoardTranslateReduxTests.framework; path = "Pods-KeyBoardTranslateReduxTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C846DC88BD6CE9F98A81C504A981B54 /* Pods-KeyBoardTranslateReduxUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyBoardTranslateReduxUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7120B835DBB66505921611415D729585 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71271725DE5CCC0BBEE81EB8E9D98E82 /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = ReSwift/CoreTypes/Reducer.swift; sourceTree = "<group>"; };
+		72124409486BE6A3A12EF44B3EFE540E /* Pods_KeyBoardTranslateReduxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyBoardTranslateReduxUITests.framework; path = "Pods-KeyBoardTranslateReduxUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730379448ED07F3404E82CAEA5CB9B19 /* Pods-KeyBoardTranslate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyBoardTranslate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79671FE58DCBAC8FB9711561D02ED4DA /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = ReSwift/Utils/Coding.swift; sourceTree = "<group>"; };
+		7D6AA9487D6FEA497889842169BF355D /* Pods-KeyBoardTranslateReduxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyBoardTranslateReduxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81CBAF76151CF858D574A099D1E7FC21 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReSwift/CoreTypes/Store.swift; sourceTree = "<group>"; };
+		83EDC964B22DDA588870C260A7A333C6 /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeHelper.swift; path = ReSwift/Utils/TypeHelper.swift; sourceTree = "<group>"; };
+		86419974D53F897BB042D01139268AD0 /* Pods_KeyBoardTranslateRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyBoardTranslateRedux.framework; path = "Pods-KeyBoardTranslateRedux.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8830DA7D7E6FF050B4A9ADB3705C6AA5 /* Pods-KeyBoardTranslate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyBoardTranslate.debug.xcconfig"; sourceTree = "<group>"; };
+		8E6C9E17987035DE48EA9493A0C11119 /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = ReSwift/CoreTypes/StoreType.swift; sourceTree = "<group>"; };
+		9165D8207347A5D76B9A7B5D86504089 /* Pods-KeyBoardTranslateReduxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyBoardTranslateReduxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9632B848A020E18CE30927D8BEB43D91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ABA0AF062C1C3676E4282F89A95CB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97565596431AB8F3F3C85D49F3D7F61B /* Pods-KeyBoardTranslateReduxTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyBoardTranslateReduxTests-frameworks.sh"; sourceTree = "<group>"; };
+		9C7C44BB74FE70EB13AB34BB9230D771 /* Pods-KeyBoardTranslateReduxTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyBoardTranslateReduxTests.modulemap"; sourceTree = "<group>"; };
+		9ECB752D7054DBEA116738D7BA747A85 /* ReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwift-dummy.m"; sourceTree = "<group>"; };
+		A0AB45DB80F317D630E7B438571622A7 /* Pods-KeyBoardTranslateRedux-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyBoardTranslateRedux-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD6E955BFC89A34FDBF7FEE7631E7D19 /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchingStoreType.swift; path = ReSwift/CoreTypes/DispatchingStoreType.swift; sourceTree = "<group>"; };
+		AE64CEF372085B24E500493911C621F9 /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreSubscriber.swift; path = ReSwift/CoreTypes/StoreSubscriber.swift; sourceTree = "<group>"; };
+		B43FF3965E2F3AA7D0B74BA1DAF561D0 /* Pods-KeyBoardTranslateReduxTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyBoardTranslateReduxTests-umbrella.h"; sourceTree = "<group>"; };
+		BD0FB3D02BB2959BA735D929BD1F895D /* Pods-KeyBoardTranslateRedux-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyBoardTranslateRedux-dummy.m"; sourceTree = "<group>"; };
+		C214F714801C4DDFD8214FAA3EBB6B35 /* Pods-KeyBoardTranslateRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyBoardTranslateRedux.debug.xcconfig"; sourceTree = "<group>"; };
+		C4AD215E0430E016D2F353496429006C /* Pods-KeyBoardTranslateReduxTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyBoardTranslateReduxTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5730C55370F408C0DE8D1BBC1FDB71D /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReSwift.framework; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A73268946B9A8CDEF9E368DF437FF2 /* Pods-KeyBoardTranslateReduxUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyBoardTranslateReduxUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6F91834C5D684411BF3362485421583 /* Pods-KeyBoardTranslateRedux-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyBoardTranslateRedux-frameworks.sh"; sourceTree = "<group>"; };
+		C725CAA1819E4CE7F26BCE1C18EC0C29 /* ReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-umbrella.h"; sourceTree = "<group>"; };
+		CC712117A3B952F15F674F79A1366CAF /* Pods-KeyBoardTranslate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyBoardTranslate-dummy.m"; sourceTree = "<group>"; };
+		CE48F5019257264166593354AF926892 /* Pods-KeyBoardTranslate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyBoardTranslate-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE9FF8A70D2AC7A1D137462E1C3E5CB1 /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = ReSwift/CoreTypes/Subscription.swift; sourceTree = "<group>"; };
+		CFD41C1D71FE5DFE5E3FAF10D04C97C0 /* Pods-KeyBoardTranslateRedux-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyBoardTranslateRedux-umbrella.h"; sourceTree = "<group>"; };
+		D027EEA0841CD848AF2BB5490877E3EA /* Pods-KeyBoardTranslate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyBoardTranslate-umbrella.h"; sourceTree = "<group>"; };
+		D698C1363A31A6DE4C6CFCD68DE5D4BE /* Pods-KeyBoardTranslate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyBoardTranslate.modulemap"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF00F887F15B2E15AF36620E45FA539E /* ReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwift.modulemap; sourceTree = "<group>"; };
+		E8179B3380E79445CAD00E4BA794C4CE /* Pods-KeyBoardTranslateReduxTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyBoardTranslateReduxTests-resources.sh"; sourceTree = "<group>"; };
+		F1B11305345C9146F312FEF498EEB50C /* Pods-KeyBoardTranslateReduxUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyBoardTranslateReduxUITests-umbrella.h"; sourceTree = "<group>"; };
+		FC871B7066428FF774C5F9208197F11C /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = ReSwift/CoreTypes/Middleware.swift; sourceTree = "<group>"; };
+		FCD73B2BBFE68B7C1CF0CA4A5D7E0C6E /* Pods-KeyBoardTranslateReduxUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyBoardTranslateReduxUITests.modulemap"; sourceTree = "<group>"; };
+		FE06E1C81518F26C25E3FEACC6270203 /* ReSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0467DAAF6D6857540DF9D65B45D40DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0392BEDDECAC257E70713CEFE962B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A42630CBF32171D1EF8DA449C3F32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321FAD8B749B8C008BA4AA6DB127088B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7055162279E7AE7BC24ECEFF923EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA69E6C043FE4994649CB9E08888866 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2183AC807775FE4DAAA47D15B3CBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB24DA53B0B1F746EF5975694C4D00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47BE30E59FE802FE4941D75BF050DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F612840D30EA84B185965AA0564718AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DBF7383F1EEEB20AF9E7FB88DD0185 /* Pods-KeyBoardTranslateRedux */ = {
+			isa = PBXGroup;
+			children = (
+				96ABA0AF062C1C3676E4282F89A95CB9 /* Info.plist */,
+				0C5F79F4D96358DFE9F3D94895A0A9D8 /* Pods-KeyBoardTranslateRedux.modulemap */,
+				0C18BF2213C2AF554FAD5854A03E0DB7 /* Pods-KeyBoardTranslateRedux-acknowledgements.markdown */,
+				A0AB45DB80F317D630E7B438571622A7 /* Pods-KeyBoardTranslateRedux-acknowledgements.plist */,
+				BD0FB3D02BB2959BA735D929BD1F895D /* Pods-KeyBoardTranslateRedux-dummy.m */,
+				C6F91834C5D684411BF3362485421583 /* Pods-KeyBoardTranslateRedux-frameworks.sh */,
+				0D4F8F84A4DF5DFF54D6084AABE9609C /* Pods-KeyBoardTranslateRedux-resources.sh */,
+				CFD41C1D71FE5DFE5E3FAF10D04C97C0 /* Pods-KeyBoardTranslateRedux-umbrella.h */,
+				C214F714801C4DDFD8214FAA3EBB6B35 /* Pods-KeyBoardTranslateRedux.debug.xcconfig */,
+				337BBB7B85A458B2620E448580EDAFE0 /* Pods-KeyBoardTranslateRedux.release.xcconfig */,
+			);
+			name = "Pods-KeyBoardTranslateRedux";
+			path = "Target Support Files/Pods-KeyBoardTranslateRedux";
+			sourceTree = "<group>";
+		};
+		1334C0328849627CED539AF332118725 /* ReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2711A63FBF227A0CA669ED1D1EDB8F56 /* Action.swift */,
+				1F3C38E9357DF11B55A4279C68A73D47 /* Assertions.swift */,
+				79671FE58DCBAC8FB9711561D02ED4DA /* Coding.swift */,
+				AD6E955BFC89A34FDBF7FEE7631E7D19 /* DispatchingStoreType.swift */,
+				FC871B7066428FF774C5F9208197F11C /* Middleware.swift */,
+				71271725DE5CCC0BBEE81EB8E9D98E82 /* Reducer.swift */,
+				375E8868F8F6D6961F33EDED16FF1D5E /* State.swift */,
+				81CBAF76151CF858D574A099D1E7FC21 /* Store.swift */,
+				AE64CEF372085B24E500493911C621F9 /* StoreSubscriber.swift */,
+				8E6C9E17987035DE48EA9493A0C11119 /* StoreType.swift */,
+				CE9FF8A70D2AC7A1D137462E1C3E5CB1 /* Subscription.swift */,
+				83EDC964B22DDA588870C260A7A333C6 /* TypeHelper.swift */,
+				D3D68B54E743ABB0B1D0C26EC23C8DA4 /* Support Files */,
+			);
+			name = ReSwift;
+			path = ReSwift;
+			sourceTree = "<group>";
+		};
+		1F40E3CC5A303BDA1E23086DA2CA4DDD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31E5D5201856CB6BF06072DA5A73786B /* Pods-KeyBoardTranslate */,
+				06DBF7383F1EEEB20AF9E7FB88DD0185 /* Pods-KeyBoardTranslateRedux */,
+				9DAC649BFAC33B07BE99CBFCC9BBCC0A /* Pods-KeyBoardTranslateReduxTests */,
+				D27ABB2815D053BBB77F3AA1EB0F8307 /* Pods-KeyBoardTranslateReduxUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31E5D5201856CB6BF06072DA5A73786B /* Pods-KeyBoardTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				3F7355F99DC876FEFD5038EB3D5E107B /* Info.plist */,
+				D698C1363A31A6DE4C6CFCD68DE5D4BE /* Pods-KeyBoardTranslate.modulemap */,
+				730379448ED07F3404E82CAEA5CB9B19 /* Pods-KeyBoardTranslate-acknowledgements.markdown */,
+				CE48F5019257264166593354AF926892 /* Pods-KeyBoardTranslate-acknowledgements.plist */,
+				CC712117A3B952F15F674F79A1366CAF /* Pods-KeyBoardTranslate-dummy.m */,
+				3D9D76454766FBB81CD79A014FE426AC /* Pods-KeyBoardTranslate-resources.sh */,
+				D027EEA0841CD848AF2BB5490877E3EA /* Pods-KeyBoardTranslate-umbrella.h */,
+				8830DA7D7E6FF050B4A9ADB3705C6AA5 /* Pods-KeyBoardTranslate.debug.xcconfig */,
+				35CE541BE9CE838D587F5063FB8D742E /* Pods-KeyBoardTranslate.release.xcconfig */,
+			);
+			name = "Pods-KeyBoardTranslate";
+			path = "Target Support Files/Pods-KeyBoardTranslate";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A58919414556FF8285FCC0A42B1AC168 /* Pods */,
+				EE170DBDE82F4494A926F3C04BEFEDD7 /* Products */,
+				1F40E3CC5A303BDA1E23086DA2CA4DDD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAC649BFAC33B07BE99CBFCC9BBCC0A /* Pods-KeyBoardTranslateReduxTests */ = {
+			isa = PBXGroup;
+			children = (
+				5848E9038E87BB49D88C127F97F8E250 /* Info.plist */,
+				9C7C44BB74FE70EB13AB34BB9230D771 /* Pods-KeyBoardTranslateReduxTests.modulemap */,
+				1EC5EF70ED8243F93FA55E435DDD724B /* Pods-KeyBoardTranslateReduxTests-acknowledgements.markdown */,
+				C4AD215E0430E016D2F353496429006C /* Pods-KeyBoardTranslateReduxTests-acknowledgements.plist */,
+				0CCD0B7F47A5C34C9CC79E6F93666367 /* Pods-KeyBoardTranslateReduxTests-dummy.m */,
+				97565596431AB8F3F3C85D49F3D7F61B /* Pods-KeyBoardTranslateReduxTests-frameworks.sh */,
+				E8179B3380E79445CAD00E4BA794C4CE /* Pods-KeyBoardTranslateReduxTests-resources.sh */,
+				B43FF3965E2F3AA7D0B74BA1DAF561D0 /* Pods-KeyBoardTranslateReduxTests-umbrella.h */,
+				60F88EA6A3DE1B644694E0EE9E987BEB /* Pods-KeyBoardTranslateReduxTests.debug.xcconfig */,
+				11D213B08C7F64BEE419354F0EAF8BB8 /* Pods-KeyBoardTranslateReduxTests.release.xcconfig */,
+			);
+			name = "Pods-KeyBoardTranslateReduxTests";
+			path = "Target Support Files/Pods-KeyBoardTranslateReduxTests";
+			sourceTree = "<group>";
+		};
+		A58919414556FF8285FCC0A42B1AC168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1334C0328849627CED539AF332118725 /* ReSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D27ABB2815D053BBB77F3AA1EB0F8307 /* Pods-KeyBoardTranslateReduxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7120B835DBB66505921611415D729585 /* Info.plist */,
+				FCD73B2BBFE68B7C1CF0CA4A5D7E0C6E /* Pods-KeyBoardTranslateReduxUITests.modulemap */,
+				C6A73268946B9A8CDEF9E368DF437FF2 /* Pods-KeyBoardTranslateReduxUITests-acknowledgements.markdown */,
+				6C846DC88BD6CE9F98A81C504A981B54 /* Pods-KeyBoardTranslateReduxUITests-acknowledgements.plist */,
+				2F5F883388BAA46E79A62819CC5BD022 /* Pods-KeyBoardTranslateReduxUITests-dummy.m */,
+				1B88AFC478297538764F317C8CEF244F /* Pods-KeyBoardTranslateReduxUITests-frameworks.sh */,
+				3EFF0C6D0A2288DC7225FD53DF1CAB48 /* Pods-KeyBoardTranslateReduxUITests-resources.sh */,
+				F1B11305345C9146F312FEF498EEB50C /* Pods-KeyBoardTranslateReduxUITests-umbrella.h */,
+				7D6AA9487D6FEA497889842169BF355D /* Pods-KeyBoardTranslateReduxUITests.debug.xcconfig */,
+				9165D8207347A5D76B9A7B5D86504089 /* Pods-KeyBoardTranslateReduxUITests.release.xcconfig */,
+			);
+			name = "Pods-KeyBoardTranslateReduxUITests";
+			path = "Target Support Files/Pods-KeyBoardTranslateReduxUITests";
+			sourceTree = "<group>";
+		};
+		D3D68B54E743ABB0B1D0C26EC23C8DA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9632B848A020E18CE30927D8BEB43D91 /* Info.plist */,
+				DF00F887F15B2E15AF36620E45FA539E /* ReSwift.modulemap */,
+				305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */,
+				9ECB752D7054DBEA116738D7BA747A85 /* ReSwift-dummy.m */,
+				FE06E1C81518F26C25E3FEACC6270203 /* ReSwift-prefix.pch */,
+				C725CAA1819E4CE7F26BCE1C18EC0C29 /* ReSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReSwift";
+			sourceTree = "<group>";
+		};
+		EE170DBDE82F4494A926F3C04BEFEDD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579EB498F0652077B1423A97A9C93C12 /* Pods_KeyBoardTranslate.framework */,
+				86419974D53F897BB042D01139268AD0 /* Pods_KeyBoardTranslateRedux.framework */,
+				676C911AE9E1128B4B837B9020F91ECC /* Pods_KeyBoardTranslateReduxTests.framework */,
+				72124409486BE6A3A12EF44B3EFE540E /* Pods_KeyBoardTranslateReduxUITests.framework */,
+				C5730C55370F408C0DE8D1BBC1FDB71D /* ReSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		008B61D7AF80AFBFA4E6DF740418FF58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E91FEF7B3AB38BF61E7F7A79714623 /* Pods-KeyBoardTranslateRedux-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B87F9E5EA0ECFF5BABCB0F9A6869A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7CDADFC352C70A3F72C8A16890AB39 /* Pods-KeyBoardTranslateReduxUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDC54845E2BF953F8373FB88ABA01B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FFF2D9613DCFC60CAA19801DD93F36 /* Pods-KeyBoardTranslateReduxTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4904DF7BAAB3C4DF66ABC6C88E3D7141 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B484BE70F975B1C199D861B71369E05 /* ReSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DE48CDADD8AAC5269833585CBA9645 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0B582B9B5DE956EB007F49EB52634C /* Pods-KeyBoardTranslate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F7D920B6DB77FAA121372E26D0EF234 /* Pods-KeyBoardTranslateReduxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0F7614B6D5D4BA0A4A7D814D7BFB78 /* Build configuration list for PBXNativeTarget "Pods-KeyBoardTranslateReduxTests" */;
+			buildPhases = (
+				2EDC54845E2BF953F8373FB88ABA01B7 /* Headers */,
+				029F8E5DCD3BA820456681823E8B1645 /* Sources */,
+				29A42630CBF32171D1EF8DA449C3F32E /* Frameworks */,
+				65E39C26BB683EAE1C17A588F9F9A072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D181FA390025BF14A66AE96416216A /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyBoardTranslateReduxTests";
+			productName = "Pods-KeyBoardTranslateReduxTests";
+			productReference = 676C911AE9E1128B4B837B9020F91ECC /* Pods_KeyBoardTranslateReduxTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DF578DEE2D81CB22796C739D406FB35 /* Pods-KeyBoardTranslateRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9EB203ACC9029A08902F26DFE6F998 /* Build configuration list for PBXNativeTarget "Pods-KeyBoardTranslateRedux" */;
+			buildPhases = (
+				008B61D7AF80AFBFA4E6DF740418FF58 /* Headers */,
+				44C4FACC1F8AE2C0E952B14623709E7C /* Sources */,
+				0467DAAF6D6857540DF9D65B45D40DAC /* Frameworks */,
+				8E08C388B1F5D1BFAEF86EC8E9420957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24FA7039C788CD6991FFC6A54AB72D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyBoardTranslateRedux";
+			productName = "Pods-KeyBoardTranslateRedux";
+			productReference = 86419974D53F897BB042D01139268AD0 /* Pods_KeyBoardTranslateRedux.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90ABA8CF9385A30ECBD535052111B93D /* ReSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D164479B47519DA174E6839791EB4B71 /* Build configuration list for PBXNativeTarget "ReSwift" */;
+			buildPhases = (
+				4904DF7BAAB3C4DF66ABC6C88E3D7141 /* Headers */,
+				D196E51618714F1B2F1D62FE793DE33F /* Sources */,
+				8F2183AC807775FE4DAAA47D15B3CBA0 /* Frameworks */,
+				4E08E727360F1C46709AD002E90078BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReSwift;
+			productName = ReSwift;
+			productReference = C5730C55370F408C0DE8D1BBC1FDB71D /* ReSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB10B19B8B59BACDE2DD8BBF762D2A95 /* Pods-KeyBoardTranslateReduxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7268C089F447C6694B1BD2D9D84A7D /* Build configuration list for PBXNativeTarget "Pods-KeyBoardTranslateReduxUITests" */;
+			buildPhases = (
+				27B87F9E5EA0ECFF5BABCB0F9A6869A6 /* Headers */,
+				BEF4E3EF632C9B6BA625CE013EDBB5F4 /* Sources */,
+				7F7055162279E7AE7BC24ECEFF923EAB /* Frameworks */,
+				59FB2CD26C726DDAC8BC9D276B01127A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC50819DCA5EFD33EB5DCA97E89F0C3B /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyBoardTranslateReduxUITests";
+			productName = "Pods-KeyBoardTranslateReduxUITests";
+			productReference = 72124409486BE6A3A12EF44B3EFE540E /* Pods_KeyBoardTranslateReduxUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED3D75E70EAE67129FCE6451A5AB68CF /* Pods-KeyBoardTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBF85B8973E2527A89234F7CC5878A3 /* Build configuration list for PBXNativeTarget "Pods-KeyBoardTranslate" */;
+			buildPhases = (
+				50DE48CDADD8AAC5269833585CBA9645 /* Headers */,
+				D526FCCE7AFBC99DA8A48534C9E052BF /* Sources */,
+				FE47BE30E59FE802FE4941D75BF050DC /* Frameworks */,
+				035853B4A22224357B5277B36BAC80A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9501F52488AC734EF9361181CA67E472 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyBoardTranslate";
+			productName = "Pods-KeyBoardTranslate";
+			productReference = 579EB498F0652077B1423A97A9C93C12 /* Pods_KeyBoardTranslate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE170DBDE82F4494A926F3C04BEFEDD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3D75E70EAE67129FCE6451A5AB68CF /* Pods-KeyBoardTranslate */,
+				4DF578DEE2D81CB22796C739D406FB35 /* Pods-KeyBoardTranslateRedux */,
+				1F7D920B6DB77FAA121372E26D0EF234 /* Pods-KeyBoardTranslateReduxTests */,
+				DB10B19B8B59BACDE2DD8BBF762D2A95 /* Pods-KeyBoardTranslateReduxUITests */,
+				90ABA8CF9385A30ECBD535052111B93D /* ReSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035853B4A22224357B5277B36BAC80A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E08E727360F1C46709AD002E90078BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FB2CD26C726DDAC8BC9D276B01127A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E39C26BB683EAE1C17A588F9F9A072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E08C388B1F5D1BFAEF86EC8E9420957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		029F8E5DCD3BA820456681823E8B1645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E5F1200C943CD9DFAA374F43A06B5F /* Pods-KeyBoardTranslateReduxTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C4FACC1F8AE2C0E952B14623709E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C77B5B88F3F1161224C64F77742889D /* Pods-KeyBoardTranslateRedux-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF4E3EF632C9B6BA625CE013EDBB5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0C55CC371346C9421FC893C497F301 /* Pods-KeyBoardTranslateReduxUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D196E51618714F1B2F1D62FE793DE33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46C4E2E97CC44D8E964B256BAC31F2E /* Action.swift in Sources */,
+				B0C2455D44D113ACBD277EB8ABE59FDC /* Assertions.swift in Sources */,
+				E0F49733763771E645AE32918DF513E8 /* Coding.swift in Sources */,
+				3FCB2C4BB2C5CA6DBE3B559530ED4890 /* DispatchingStoreType.swift in Sources */,
+				37E7D5281F0829E487F9F82A8EF79D1F /* Middleware.swift in Sources */,
+				417E0875BE94082D472410FD0CE5F33D /* Reducer.swift in Sources */,
+				F3EAEDAD8EDED91D6DB23887A1D40A6A /* ReSwift-dummy.m in Sources */,
+				E1D8428C63FC6E33B8D900071381AB12 /* State.swift in Sources */,
+				8D49C30B746100857A1E86726413DE59 /* Store.swift in Sources */,
+				420CBE39B90A08B4475518687EDEE4EA /* StoreSubscriber.swift in Sources */,
+				00CE09FFCCA53DB5C01D16BE05756BB2 /* StoreType.swift in Sources */,
+				4BAE87FC0D1298FDB07FD12DCCFF539F /* Subscription.swift in Sources */,
+				B9EE3D1B402909900FBA96C15DDF9DA4 /* TypeHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D526FCCE7AFBC99DA8A48534C9E052BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DC9653CD135CEF03426CBEDC5D7354 /* Pods-KeyBoardTranslate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33D181FA390025BF14A66AE96416216A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeyBoardTranslateRedux";
+			target = 4DF578DEE2D81CB22796C739D406FB35 /* Pods-KeyBoardTranslateRedux */;
+			targetProxy = 3098044F3410091936B0826B7E3BD86F /* PBXContainerItemProxy */;
+		};
+		9501F52488AC734EF9361181CA67E472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReSwift;
+			target = 90ABA8CF9385A30ECBD535052111B93D /* ReSwift */;
+			targetProxy = 849D796E419DC303D3EFE6C696C5DBF7 /* PBXContainerItemProxy */;
+		};
+		AC50819DCA5EFD33EB5DCA97E89F0C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeyBoardTranslateRedux";
+			target = 4DF578DEE2D81CB22796C739D406FB35 /* Pods-KeyBoardTranslateRedux */;
+			targetProxy = 194A1E79E4818F6DEC02FDFA1AAAFCDE /* PBXContainerItemProxy */;
+		};
+		F24FA7039C788CD6991FFC6A54AB72D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReSwift;
+			target = 90ABA8CF9385A30ECBD535052111B93D /* ReSwift */;
+			targetProxy = 603EAFB0AFFC46DE7E3AB7A47575D3AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DC252EB94FAF317033148F0E10983AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F88EA6A3DE1B644694E0EE9E987BEB /* Pods-KeyBoardTranslateReduxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyBoardTranslateReduxTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyBoardTranslateReduxTests/Pods-KeyBoardTranslateReduxTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16BC524EDE752B9BB72D7E267116A89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1C127D82CF937CAF036A8DFACC4E9729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D213B08C7F64BEE419354F0EAF8BB8 /* Pods-KeyBoardTranslateReduxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyBoardTranslateReduxTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyBoardTranslateReduxTests/Pods-KeyBoardTranslateReduxTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DF68876DF2AD07A12482477C1AA7DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4B02619CD6FA059BED59C3D1A64BADF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8830DA7D7E6FF050B4A9ADB3705C6AA5 /* Pods-KeyBoardTranslate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyBoardTranslate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyBoardTranslate/Pods-KeyBoardTranslate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D4FB11C34963B5BB072AF78BB85A77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9165D8207347A5D76B9A7B5D86504089 /* Pods-KeyBoardTranslateReduxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyBoardTranslateReduxUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyBoardTranslateReduxUITests/Pods-KeyBoardTranslateReduxUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		602C36C4DC180A5ECD3326EB578562CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AB66890FB2A48A276A36FE070830422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337BBB7B85A458B2620E448580EDAFE0 /* Pods-KeyBoardTranslateRedux.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyBoardTranslateRedux/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyBoardTranslateRedux/Pods-KeyBoardTranslateRedux.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78359FC1A3071FAEE978385698D72A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CE541BE9CE838D587F5063FB8D742E /* Pods-KeyBoardTranslate.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyBoardTranslate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyBoardTranslate/Pods-KeyBoardTranslate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3C1828787AF3A8258C5DFDAE7C195CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B35DEE55B03217B7B0E4ECC14D6F39BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6AA9487D6FEA497889842169BF355D /* Pods-KeyBoardTranslateReduxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyBoardTranslateReduxUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyBoardTranslateReduxUITests/Pods-KeyBoardTranslateReduxUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8E80393D2DE73FA46EE207F73241585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C214F714801C4DDFD8214FAA3EBB6B35 /* Pods-KeyBoardTranslateRedux.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyBoardTranslateRedux/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyBoardTranslateRedux/Pods-KeyBoardTranslateRedux.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C0F7614B6D5D4BA0A4A7D814D7BFB78 /* Build configuration list for PBXNativeTarget "Pods-KeyBoardTranslateReduxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC252EB94FAF317033148F0E10983AC /* Debug */,
+				1C127D82CF937CAF036A8DFACC4E9729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BC524EDE752B9BB72D7E267116A89A /* Debug */,
+				1DF68876DF2AD07A12482477C1AA7DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7268C089F447C6694B1BD2D9D84A7D /* Build configuration list for PBXNativeTarget "Pods-KeyBoardTranslateReduxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35DEE55B03217B7B0E4ECC14D6F39BD /* Debug */,
+				4D4FB11C34963B5BB072AF78BB85A77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9EB203ACC9029A08902F26DFE6F998 /* Build configuration list for PBXNativeTarget "Pods-KeyBoardTranslateRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E80393D2DE73FA46EE207F73241585 /* Debug */,
+				6AB66890FB2A48A276A36FE070830422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D164479B47519DA174E6839791EB4B71 /* Build configuration list for PBXNativeTarget "ReSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602C36C4DC180A5ECD3326EB578562CA /* Debug */,
+				A3C1828787AF3A8258C5DFDAE7C195CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBF85B8973E2527A89234F7CC5878A3 /* Build configuration list for PBXNativeTarget "Pods-KeyBoardTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B02619CD6FA059BED59C3D1A64BADF6 /* Debug */,
+				78359FC1A3071FAEE978385698D72A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

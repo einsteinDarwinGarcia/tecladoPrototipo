@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0Nc-Vx-eea" customClass="SelectIdiomaView" customModule="KeyBoardTranslate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="444" height="304"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D0i-kE-NFE">
+                    <rect key="frame" x="0.0" y="50" width="444" height="254"/>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1K-3m-3AD">
+                    <rect key="frame" x="0.0" y="0.0" width="444" height="50"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="2qb-b8-UN8"/>
+                    </constraints>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="doneButton:" destination="0Nc-Vx-eea" eventType="touchUpInside" id="NIB-4y-hpn"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ql8-VE-Qff" firstAttribute="bottom" secondItem="D0i-kE-NFE" secondAttribute="bottom" id="Bjr-Fn-vB5"/>
+                <constraint firstItem="x1K-3m-3AD" firstAttribute="leading" secondItem="ql8-VE-Qff" secondAttribute="leading" id="EL1-YI-vxC"/>
+                <constraint firstItem="D0i-kE-NFE" firstAttribute="top" secondItem="x1K-3m-3AD" secondAttribute="bottom" id="KwQ-i3-CpN"/>
+                <constraint firstItem="x1K-3m-3AD" firstAttribute="top" secondItem="ql8-VE-Qff" secondAttribute="top" id="a7v-pj-Glx"/>
+                <constraint firstItem="D0i-kE-NFE" firstAttribute="trailing" secondItem="ql8-VE-Qff" secondAttribute="trailing" id="h57-nj-BDP"/>
+                <constraint firstItem="ql8-VE-Qff" firstAttribute="trailing" secondItem="x1K-3m-3AD" secondAttribute="trailing" id="kR5-9S-Zgi"/>
+                <constraint firstItem="D0i-kE-NFE" firstAttribute="leading" secondItem="ql8-VE-Qff" secondAttribute="leading" id="xco-6s-joW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ql8-VE-Qff"/>
+            <connections>
+                <outlet property="picker" destination="D0i-kE-NFE" id="V0h-mo-mcf"/>
+            </connections>
+            <point key="canvasLocation" x="68" y="-30"/>
+        </view>
+    </objects>
+</document>

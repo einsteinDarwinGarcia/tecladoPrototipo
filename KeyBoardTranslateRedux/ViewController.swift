@@ -14,14 +14,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        store.subscribe(self) {
-            $0.select {
-                $0.tooBarState
-            }
-        }
-        
-        //store.dispatch(RoutingAction(destination: .menu))
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,48 +22,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func elboton(_ sender: Any) {
-        //store.dispatch(ToolBarAction(toolBarPressKey:.change))
-    }
-}
-
-/*
-extension ViewController: StoreSubscriber {
-    
-    func newState(state: KeyboardState) {
-        //print("mis polainas")
-        
-        switch  state.typeOfKeyState {
-        case .mayus:
-            break
-           
-        case .num:
-            break
-            
-        default:break
-            
-        }
-        
-    }
-}*/
-
-
-extension ViewController: StoreSubscriber {
-    
-    
-    
-    func newState(state: ToolBarTranslateState) {
-        //print("mis polainas")
-        
-        switch  state.toolbarKeyPress {
-        case .change:
-           boton.setTitle(state.from.typeIdAndDescription.description, for: .normal)
-        case .translate: break
-            
-        default:
-             print("mis polainas \(state.from.typeIdAndDescription.description)")
-             boton.setTitle(state.from.typeIdAndDescription.description, for: .normal)
-        }
         
     }
 }
+
 

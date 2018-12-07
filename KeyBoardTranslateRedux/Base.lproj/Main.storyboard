@@ -25,27 +25,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUb-JM-EUl">
-                                <rect key="frame" x="171" y="94" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="elboton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0zp-JQ-GSm"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Fc5-dY-8GR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="9GC-35-b7z"/>
                             <constraint firstItem="Fc5-dY-8GR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ACJ-TI-Qna"/>
-                            <constraint firstItem="CUb-JM-EUl" firstAttribute="top" secondItem="Fc5-dY-8GR" secondAttribute="bottom" constant="8" symbolic="YES" id="E4D-Q7-JDw"/>
-                            <constraint firstItem="CUb-JM-EUl" firstAttribute="centerX" secondItem="Fc5-dY-8GR" secondAttribute="centerX" id="GzJ-vt-J1Z"/>
                             <constraint firstItem="Fc5-dY-8GR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="WT1-xT-DlS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="boton" destination="CUb-JM-EUl" id="Tu2-qZ-hJi"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -41,11 +41,11 @@ class GoogleTranslate {
         
         switch params.target {
             case "en":
-                 callback("this is a traduction in english - (\(params.text)")
+                 callback("Hello world")
             case "es":
-                callback("esto es una traduccion en español - (\(params.text)")
+                callback("Hola mundo")
             case "it":
-                callback("questa è una traductio in italiano - (\(params.text)")
+                callback("Ciao mondo")
             default:
                 break
         }
